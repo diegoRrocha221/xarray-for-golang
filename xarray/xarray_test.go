@@ -176,11 +176,11 @@ func TestCharOperations(t *testing.T) {
 	}
 
 	resultChar := charArr.Find(func(value int) bool {
-    return value > 'c'
+		return value > 'c'
 	})
 	expectedChar := 'd'
-		if int(resultChar) != int(expectedChar) {
-    t.Errorf("Find failed. Expected %v, got %v", expectedChar, resultChar)
+	if int(resultChar) != int(expectedChar) {
+		t.Errorf("Find failed. Expected %v, got %v", expectedChar, resultChar)
 	}
 	resultBool := charArr.Every(func(value int) bool {
 		return value >= 'a'
