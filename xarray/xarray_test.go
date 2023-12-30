@@ -5,6 +5,8 @@ import (
 	"testing"
 )
 
+//test all functions
+
 func TestPush(t *testing.T) {
 	var arr IntArray
 	arr.Push(1)
