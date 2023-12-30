@@ -6,7 +6,7 @@
   <a href="https://github.com/diegoRrocha221/xarray-for-golang/blob/main/LICENSE"><img src="https://img.shields.io/github/license/diegoRrocha221/xarray-for-golang" alt="GitHub License"></a>
 </p>
 
-<p align="center">`xarray` is a lightweight Go package that provides array manipulation methods inspired by TypeScript. It is designed to simplify common array operations, offering methods such as `Push`, `Pop`, `ForEach`, `Map`, `Filter`, `Find`, `Every`, `Some`, `Reduce`, and `Sort`. The package supports both integer and character arrays, making it versatile for various use cases.</p>
+<p align="center">xarray is a lightweight Go package that provides array manipulation methods inspired by TypeScript. It is designed to simplify common array operations, offering methods such as Push, Pop, ForEach, Map, Filter, Find, Every, Some, Reduce, and Sort. The package supports both integer and character arrays, making it versatile for various use cases.</p>
 
 <h2 align="center">Installation</h2>
 
