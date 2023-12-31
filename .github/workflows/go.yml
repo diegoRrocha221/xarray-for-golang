@@ -26,3 +26,13 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+
+  codecov:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+
