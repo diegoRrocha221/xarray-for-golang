@@ -1,7 +1,7 @@
 <h1 align="center">xarray v1.0.0</h1>
 
 <p align="center">
-  <a href="https://pkg.go.dev/github.com/diegoRrocha221/xarray-for-golang"><img src="https://goreportcard.com/badge/github.com/diegorrocha221/xarray-for-golang" alt="Go Reference"></a>
+  <a href="https://goreportcard.com/report/github.com/diegorrocha221/xarray-for-golang"><img src="https://goreportcard.com/badge/github.com/diegorrocha221/xarray-for-golang" alt="Go Reference"></a>
   <a href="https://pkg.go.dev/github.com/diegoRrocha221/xarray-for-golang"><img src="https://pkg.go.dev/badge/github.com/diegoRrocha221/xarray-for-golang.svg" alt="Go Reference"></a>
   <a href="https://github.com/diegoRrocha221/xarray-for-golang/blob/main/LICENSE"><img src="https://img.shields.io/github/license/diegoRrocha221/xarray-for-golang" alt="GitHub License"></a>
 </p>
