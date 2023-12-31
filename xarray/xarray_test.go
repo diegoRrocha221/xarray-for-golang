@@ -1,3 +1,6 @@
+//Write By Diego R Rocha
+// Package xarray provides tests for the xarray package, which implements
+// integer arrays with various utility methods.
 package xarray
 
 import (
@@ -5,6 +8,7 @@ import (
 	"testing"
 )
 
+// TestPush tests the Push method of IntArray.
 func TestPush(t *testing.T) {
 	var arr IntArray
 	arr.Push(1)
@@ -14,6 +18,7 @@ func TestPush(t *testing.T) {
 	}
 }
 
+// TestPop tests the Pop method of IntArray.
 func TestPop(t *testing.T) {
 	arr := IntArray{1, 2, 3}
 	popped := arr.Pop()
@@ -23,6 +28,7 @@ func TestPop(t *testing.T) {
 	}
 }
 
+// TestForEach tests the ForEach method of IntArray.
 func TestForEach(t *testing.T) {
 	arr := IntArray{1, 2, 3}
 	var result IntArray
@@ -37,6 +43,7 @@ func TestForEach(t *testing.T) {
 	}
 }
 
+// TestMap tests the Map method of IntArray.
 func TestMap(t *testing.T) {
 	arr := IntArray{1, 2, 3}
 	result := arr.Map(func(value int) int {
@@ -49,6 +56,7 @@ func TestMap(t *testing.T) {
 	}
 }
 
+// TestFilter tests the Filter method of IntArray.
 func TestFilter(t *testing.T) {
 	arr := IntArray{1, 2, 3, 4, 5}
 	result := arr.Filter(func(value int) bool {
@@ -61,6 +69,7 @@ func TestFilter(t *testing.T) {
 	}
 }
 
+// TestFind tests the Find method of IntArray.
 func TestFind(t *testing.T) {
 	arr := IntArray{1, 2, 3, 4, 5}
 	result := arr.Find(func(value int) bool {
@@ -73,6 +82,7 @@ func TestFind(t *testing.T) {
 	}
 }
 
+// TestEvery tests the Every method of IntArray.
 func TestEvery(t *testing.T) {
 	arr := IntArray{2, 4, 6}
 	result := arr.Every(func(value int) bool {
@@ -93,6 +103,7 @@ func TestEvery(t *testing.T) {
 	}
 }
 
+// TestSome tests the Some method of IntArray.
 func TestSome(t *testing.T) {
 	arr := IntArray{1, 3, 5}
 	result := arr.Some(func(value int) bool {
@@ -113,6 +124,7 @@ func TestSome(t *testing.T) {
 	}
 }
 
+// TestReduce tests the Reduce method of IntArray.
 func TestReduce(t *testing.T) {
 	arr := IntArray{1, 2, 3, 4}
 	result := arr.Reduce(func(acc, value int) int {
@@ -125,6 +137,7 @@ func TestReduce(t *testing.T) {
 	}
 }
 
+// TestSort tests the Sort method of IntArray.
 func TestSort(t *testing.T) {
 	arr := IntArray{3, 1, 4, 1, 5}
 	arr.Sort()
@@ -135,6 +148,7 @@ func TestSort(t *testing.T) {
 	}
 }
 
+// TestCharOperations tests the character operations on IntArray.
 func TestCharOperations(t *testing.T) {
 	charArr := IntArray{'a', 'b', 'c', 'd'}
 
