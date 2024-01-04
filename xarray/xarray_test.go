@@ -47,7 +47,7 @@ func TestMap(t *testing.T) {
 
 	expected := IntArray{2, 4, 6}
 	if !reflect.DeepEqual(result, expected) {
-		t.Errorf("Map failed. Expected %v, got %v", expected, result)
+		t.Errorf("Map failed. Expectede %v, got %v", expected, result)
 	}
 }
 
